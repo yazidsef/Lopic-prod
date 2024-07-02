@@ -1,4 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
+:root{
+    /* ======== GREEN THEME ========= */
+    --color-primary:#ff7b02;
+    --color-primary-variant:#e5a55d;
+    --color-bg-1:#000e17;
+    --color-bg-2:#001f2d;
+    --color-bg-3:#012734;
+    --color-bg-4:#003347;
+    --color-light:#85a2b2;
+    --color-white:hsl(0,0%,90%) ;    
+
+    /* ==== SIZES=====  */
+    --container-width-lg:88%;
+    --container-width-md:92%;
+
+    --transition: all 400ms ease;
 }
