@@ -11,3 +11,12 @@ textButtons.forEach(textButton => {
         `<span style="transform:rotate(${index * 12 }deg)">${character}</span>`).join('');
 })
 
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
