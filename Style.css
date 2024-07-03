@@ -369,3 +369,40 @@ header{
 #gallery{
     margin-top: 12rem;
 }
+.gallery_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery_container p{
+    width: 45rem;
+}
+
+.swiper-wrapper{
+    margin-top: 5rem;
+    height: 37rem;
+    padding-bottom: 5rem;
+}
+.swiper-slide{
+    border :0.5rem solid var(--color-bg-4);
+    height: fit-content;
+    max-height: 36rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.swiper-slide:hover{
+    box-shadow: 0 3rem 3rem rgb(0,0 ,0 ,0.3);
+}
+
+.swiper-slide img{
+    filter: saturate(0);
+    transition: var(--transition);
+}
+.swiper-slide img:hover{
+    filter: saturate(1);
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--color-primary);
+}
+
