@@ -43,11 +43,8 @@ const openNav = () => {
 const closeNav = () => {
     nav.style.display= 'none';
     openNavBtn.style.display = 'flex';
-    closeNavBtn.style.display = 'none';} 
+    closeNavBtn.style.display = 'none';
+} 
 
 openNavBtn.addEventListener('click',openNav);
 closeNavBtn.addEventListener('click',closeNav);
-
-nav.querySelectorAll('li a').forEach(navLink =>{
-    navLink.addEventListener('click',closeNav)
-})
